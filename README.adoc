@@ -1,0 +1,8 @@
+= Spring Credentials Demo
+
+An app for demoing CredHub-secured credentials bound to an app in Cloud Foundry.
+
+```
+$ cf cs credhub default secure-credential -c '{"serviceinfo": {"url":"https://svc.example.com","username":"user", "password":"pwd"}}'
+$ cf push
+```

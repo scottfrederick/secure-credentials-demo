@@ -1,0 +1,9 @@
+---
+applications:
+- name: secure-credentials-demo
+  memory: 1G
+  random-route: true
+  path: build/libs/secure-credentials-demo-0.0.1-SNAPSHOT.jar
+  services:
+    - secure-credential
+
